@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Page</title>
+    <link rel="icon" href="Assets/Form.png">
+    <link rel="stylesheet" href="CSS/register.css">
+
+    <style>
+        body{
+            background-image: url("Assets/FormBackground.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<form action="">
+    <legend>CREATE AN ACCOUNT!</legend>
+    <br>
+    <label for="fname">First Name</label><br>
+    <input id="fname" type="text" placeholder="Enter your First Name" required="required"><br>
+
+    <label for="sname">Surname</label><br>
+    <input type="text" id="sname" placeholder="Enter your surname" required="required"><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" placeholder="Enter your email address" required="required"><br>
+
+    <label for="pass">Password</label><br>
+    <input type="password" id="pass" placeholder="Fill in your password" required="required" ><br>
+
+    <label for="phone">Phone Number</label><br>
+    <input id="phone" type="tel" placeholder="e.g 0712345678" required="required"><br>
+
+    <label for="add">Home Address</label><br>
+    <input id="add" type="text" placeholder="e.g 123 Nairobi Road" ><br>
+
+    <label for="age">Age</label><br>
+    <input id="age" type="number" placeholder="Enter your age" ><br>
+
+    <label for="file">Choose Image</label><br>
+    <input type="file" id="file" required="required"><br>
+
+    <label for="nation">Nationality</label><br>
+    <select name="" id="nation"><br>
+        <option value="" disabled>--Choose nationality--</option>
+        <option value="">Kenyan</option>
+        <option value="">Tanzanian</option>
+        <option value="">Ugandan</option>
+        <option value="">Other</option>
+    </select><br><br>
+
+    <label>Choose Gender: </label><br>
+    <input name="gender" id="female" type="radio">
+    <label for="female">Female</label><br>
+
+    <input name="gender" id="male" type="radio">
+    <label for="male">Male</label><br>
+
+    <input name="gender" id="other" type="radio">
+    <label for="other">Other</label><br>
+
+    <label>Hobby</label><br>
+    <input id="skating" type="checkbox">
+    <label for="skating">Skating</label><br>
+
+     <input id="novels" type="checkbox">
+    <label for="novels">Reading Novels</label><br><br>
+
+    <label for="message">Describe Yourself</label><br>
+    <textarea name="" id="message" cols="50" rows="10" placeholder="Say something..."></textarea><br><br>
+
+    <label for="terms">I agree to the terms and conditions</label>
+    <input id="terms" type="checkbox" required="required"><br><br>
+
+    <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>

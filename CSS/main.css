@@ -1,0 +1,15 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: maroon;
+    background-color: deeppink;
+    font-size: 80px;
+    line-height: 100px;
+    text-shadow: 10px 5px 10px pink;
+    font-style: italic;
+}
+h1:hover{background-color: cornflowerblue}
+p{
+    font-family: Calibri, Helvetica, sans-serif;
+    text-align: left;
+}

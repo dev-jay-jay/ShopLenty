@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 80px;
+    background-color: darkblue;
+    text-shadow: 5px 5px 5px black;
+}
+h1:hover{background-color: lightblue}
+img{
+    width: 400px;
+    height: 300px;
+}
+img:hover{
+    opacity: 0.8;
+}
